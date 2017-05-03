@@ -1,0 +1,30 @@
+body{
+	background-color: #E6E6FA;
+	padding: 0em;
+	margin: 0em;	
+}
+form{
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+.loginspacing{
+	padding-left: 2em; 
+}
+button{
+	background: transparent;
+}
+#login{
+	margin-left: 0em;
+	margin-right: 0em;
+	margin-top: 0em;
+	background-color: #F81515;
+	/*height:  10%;
+	width: 100%;*/
+	color: white;
+	text-align: center;
+}
+
+
+#logo{
+
+}
