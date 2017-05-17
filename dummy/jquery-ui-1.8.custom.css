@@ -1,0 +1,33 @@
+/* Code tidied up by ScrapBook */
+.ui-helper-clearfix::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+.ui-helper-clearfix { display: inline-block; }
+.ui-helper-clearfix { display: block; }
+.ui-icon { display: block; text-indent: -99999px; overflow: hidden; background-repeat: no-repeat; }
+.ui-widget { font-family: Arial,sans-serif; font-size: 1.1em; }
+.ui-widget .ui-widget { font-size: 1em; }
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-family: Arial,sans-serif; font-size: 1em; }
+.ui-widget-content { border: 1px solid rgb(221, 221, 221); background: rgb(255, 255, 255) url("ui-bg_flat_75_ffffff_40x100.png") repeat-x scroll 50% 50%; color: rgb(68, 68, 68); }
+.ui-widget-content a { color: rgb(68, 68, 68); }
+.ui-widget-header { border: 1px solid rgb(221, 221, 221); background: rgb(221, 221, 221) url("ui-bg_highlight-soft_50_dddddd_1x100.png") repeat-x scroll 50% 50%; color: rgb(68, 68, 68); font-weight: bold; }
+.ui-widget-header a { color: rgb(68, 68, 68); }
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { border: 1px solid rgb(221, 221, 221); background: rgb(246, 246, 246) url("ui-bg_highlight-soft_100_f6f6f6_1x100.png") repeat-x scroll 50% 50%; font-weight: bold; color: rgb(105, 105, 105); }
+.ui-widget :active { outline: medium none; }
+.ui-icon { width: 16px; height: 16px; background-image: url("ui-icons_0567c6_256x240.png"); }
+.ui-widget-content .ui-icon { background-image: url("ui-icons_0567c6_256x240.png"); }
+.ui-widget-header .ui-icon { background-image: url("ui-icons_82b3e2_256x240.png"); }
+.ui-icon-closethick { background-position: -96px -128px; }
+.ui-button { display: inline-block; position: relative; padding: 0px; margin-right: 0.1em; text-decoration: none !important; cursor: pointer; text-align: center; overflow: visible; }
+.ui-button .ui-button-text { display: block; line-height: 1.4; }
+.ui-button-text-only .ui-button-text { padding: 0.4em 1em; }
+button.ui-button::-moz-focus-inner { border: 0px none; padding: 0px; }
+.ui-dialog { position: absolute; padding: 0.2em; width: 300px; overflow: hidden; }
+.ui-dialog .ui-dialog-titlebar { padding: 0.5em 1em 0.3em; position: relative; }
+.ui-dialog .ui-dialog-title { float: left; margin: 0.1em 16px 0.2em 0px; }
+.ui-dialog .ui-dialog-titlebar-close { position: absolute; right: 0.3em; top: 50%; width: 19px; margin: -10px 0px 0px; padding: 1px; height: 18px; }
+.ui-dialog .ui-dialog-titlebar-close span { display: block; margin: 1px; }
+.ui-dialog .ui-dialog-titlebar-close:hover, .ui-dialog .ui-dialog-titlebar-close:focus { padding: 0px; }
+.ui-dialog .ui-dialog-content { position: relative; border: 0px none; padding: 0.5em 1em; background: transparent none repeat scroll 0% 0%; overflow: auto; }
+.ui-dialog .ui-dialog-buttonpane { text-align: left; border-width: 1px 0px 0px; background-image: none; margin: 0.5em 0px 0px; padding: 0.3em 1em 0.5em 0.4em; }
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset { float: right; }
+.ui-dialog .ui-dialog-buttonpane button { margin: 0.5em 0.4em 0.5em 0px; cursor: pointer; }
+.ui-draggable .ui-dialog-titlebar { cursor: move; }

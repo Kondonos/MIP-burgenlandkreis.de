@@ -1,0 +1,14 @@
+/* Code tidied up by ScrapBook */
+.PagerToolbar { display: block; margin: 1px 0px; padding: 0px; border-width: 4px 0px; border-style: solid; border-color: rgb(238, 238, 238); white-space: nowrap; min-height: 1.6em; font-size: 1em; font-family: Tahoma,Arial,Helvetica,sans-serif; background-color: rgb(250, 250, 250); vertical-align: middle; }
+.PagerEntries { float: left; padding-left: 2px; }
+.PagerPaging { float: right; }
+.PagerToolbar, .PagerEntries { padding: 0.3em 0.5em; margin: 0px; }
+.PagerPaging .pagebrowser_link img, .PagerPaging .pagebrowser_nolink img, .PagerPaging .pagerbrowser_pagelink, .PagerPaging .pagerbrowser_currentpage { vertical-align: middle; border: 0px none; }
+.PagerToolbar span.PagerPaging img, .PagerToolbar span.PagerPaging a img { border: 0px none; }
+.PagerPaging .pagebrowser_link {  }
+.PagerPaging .pagebrowser_nolink {  }
+.PagerPaging .pagerbrowser_pagelink {  }
+.PagerToolbar .pagerbrowser_pagelink, .PagerToolbar .pagerbrowser_pagelink:link, .PagerToolbar .pagerbrowser_pagelink:visited, .PagerToolbar .pagerbrowser_pagelink:hover, .PagerToolbar .pagerbrowser_pagelink:focus, .PagerToolbar .pagerbrowser_pagelink:active { color: rgb(102, 102, 102); margin: 0px; padding: 1px 5px; text-decoration: none; }
+.PagerToolbar .pagerbrowser_pagelink:hover, .PagerToolbar .pagerbrowser_pagelink:active, .PagerToolbar .pagerbrowser_pagelink:focus { color: rgb(0, 0, 0) !important; text-decoration: underline; background-color: rgb(238, 238, 238); }
+.PagerToolbar .pagerbrowser_pagelink:visited { color: rgb(102, 102, 102); }
+.PagerPaging .pagerbrowser_currentpage { color: rgb(0, 0, 0); margin: 0px; padding: 1px 4px; font-weight: bold; text-decoration: none; }

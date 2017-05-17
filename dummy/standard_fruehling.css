@@ -1,0 +1,7 @@
+/* Code tidied up by ScrapBook */
+.topsite01 { width: 286px; height: 160px; background: transparent url("top_fr_01.jpg") no-repeat scroll 0% 0%; }
+.topsite02 { width: 705px; height: 160px; background: transparent url("top_fr_02.jpg") no-repeat scroll 0% 0%; }
+.topsite03 { width: 286px; height: 78px; background: transparent url("top_wr_03.jpg") no-repeat scroll 0% 0%; }
+.topsite04 { width: 705px; height: 78px; background: transparent url("top_fr_04.jpg") no-repeat scroll 0% 0%; }
+.ServiceLevel a, .ServiceLevel a:hover { color: rgb(181, 59, 50); }
+.SUCHFELDBOX input { border: 1px solid rgb(185, 27, 36); background-color: rgb(235, 242, 245); }

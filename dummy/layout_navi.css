@@ -1,0 +1,14 @@
+/* Code tidied up by ScrapBook */
+#LEFTNAV ol, #LEFTNAV li { list-style-type: none; margin: 0px; padding: 0px; }
+#LEFTNAV ol, #LEFTNAV ol li { float: left; clear: left; width: 210px; }
+#LEFTNAV ol li { border-top: 1px solid rgb(226, 233, 241); }
+#LEFTNAV ol li .normal { float: left; clear: left; margin: 0px auto; padding-left: 25px; padding-top: 3px; padding-bottom: 3px; font-size: 12px; font-weight: normal; text-decoration: none; background: transparent url("nav_1_off.gif") no-repeat scroll 10px 50%; color: rgb(181, 44, 60); }
+#LEFTNAV ol li .normal:hover, #LEFTNAV ol li .active, #LEFTNAV ol li .active:hover { float: left; clear: left; margin: 0px auto; padding-left: 25px; padding-top: 3px; padding-bottom: 3px; font-size: 12px; font-weight: bold; text-decoration: none; background: transparent url("nav_1_on.gif") no-repeat scroll 10px 50%; color: rgb(181, 44, 60); }
+#LEFTNAV ol li .active, #LEFTNAV ol li .active:hover { float: left; clear: left; margin: 0px auto; padding-left: 25px; padding-top: 3px; padding-bottom: 3px; font-size: 12px; font-weight: bold; text-decoration: none; background: transparent url("nav_1_sub.gif") no-repeat scroll 10px 50%; color: rgb(181, 44, 60); }
+#rigthLevel0, #activ_rigthLevel0, #rigthLevel0_open_active, #rigthLevel0_open { float: left; clear: left; width: 163px; border-top: 1px solid rgb(226, 233, 241); border-bottom: 1px solid rgb(160, 197, 209); padding-top: 3px; padding-bottom: 3px; }
+#rigthLevel0 a { float: left; clear: left; margin-left: 15px; padding-left: 15px; font-size: 12px; font-weight: normal; color: rgb(60, 107, 125); text-decoration: none; background: transparent url("nav_2_off.gif") no-repeat scroll 0px 50%; }
+#rigthLevel0 a:hover { background: transparent url("nav_2_on.gif") no-repeat scroll 0px 50%; color: rgb(60, 107, 125); }
+.ServiceLevel { font-size: 10px; }
+.ServiceLevel img { margin-right: 5px; }
+.ServiceLevel a { float: left; clear: left; font-size: 10px; margin-left: 13px; margin-top: 10px; text-decoration: none; color: rgb(181, 59, 50); }
+.ServiceLevel a:hover { float: left; clear: left; font-size: 10px; color: rgb(181, 59, 50); }

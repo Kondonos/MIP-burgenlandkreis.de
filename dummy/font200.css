@@ -1,0 +1,6 @@
+/* Code tidied up by ScrapBook */
+#CONTENTBOX { font-size: 130% !important; }
+#LEFTNAV ol { font-size: 105% !important; }
+#LEFTNAV ol li .normal, #LEFTNAV ol li .active, #LEFTNAV ol li .normal:hover, #LEFTNAV ol li .active:hover { font-size: 13px; }
+.ServiceLevel a { font-size: 11px; }
+#rigthLevel0 a { font-size: 13px; }

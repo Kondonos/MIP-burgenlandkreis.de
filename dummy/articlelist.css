@@ -1,0 +1,7 @@
+/* Code tidied up by ScrapBook */
+.modul_articlelist { float: left; width: 100%; clear: both; }
+.modul_articlelist .articlelist_main {  }
+.modul_articlelist .PagerToolbar { clear: left; }
+.modul_articlelist ol.articlelist_listview, .modul_articlelist ol.articlelist_listview li.zeile_0, .modul_articlelist ol.articlelist_listview li.zeile_1 { padding: 0px; margin: 0px; list-style: outside none none; }
+.modul_articlelist ol.articlelist_listview { clear: both; float: left; width: 100%; }
+.modul_articlelist ol.articlelist_listview li.zeile_0, .modul_articlelist ol.articlelist_listview li.zeile_1 { display: block; margin: 0px 0px 0.5em; padding: 1%; float: left; width: 98%; }

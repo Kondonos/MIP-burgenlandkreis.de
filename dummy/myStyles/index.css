@@ -1,0 +1,30 @@
+#myform{
+	margin: 0.0em;
+	padding: 0.2em;
+	padding-left: 1em;
+	background-color: #D0E0FF;
+	text-align: center;
+	color: #001070;
+	font-size: 1.4em; 
+}
+#myform label{
+	padding-left: 3em;
+}
+
+
+#myform #sign_in{
+	padding-left: 1em;
+}
+
+#myform select{
+	font-size: 1.2em;
+	border: none;
+	background-color: #D0E0F0;
+	color: #001070;
+	text-align: center;
+	text-align-last: center; 
+}
+#myform select option{
+	text-align: left
+}
+

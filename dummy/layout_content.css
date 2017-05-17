@@ -1,0 +1,7 @@
+/* Code tidied up by ScrapBook */
+h3 { padding-top: 20px; padding-bottom: 15px; font-size: 12px; font-weight: bold; }
+hr { height: 1px; background-color: rgb(164, 195, 215); border: 0px none; }
+.SUCHFELDBOX { float: left; clear: left; width: 140px; height: 20px; margin-left: 10px; margin-top: 10px; margin-bottom: 20px; }
+.SUCHFELDBOX input { font-family: arial; font-size: 10px; margin: 2px; border: 1px solid rgb(185, 27, 36); width: 70px; padding: 2px; color: rgb(185, 27, 36); background-color: rgb(235, 242, 245); float: left; }
+.SUCHFELDBOX input.SUCHBUTTON, .SUCHFELDBOX input.BUTTON { font-size: 10px; width: 46px; height: 16px; background: transparent url("search.gif") no-repeat scroll 0px 3px; border: 0px none; color: rgb(185, 27, 36); font-weight: bold; float: right; }
+.SUCHFELDBOX .simplesearch_label { display: none; }

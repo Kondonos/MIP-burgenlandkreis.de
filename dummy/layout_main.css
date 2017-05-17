@@ -1,0 +1,38 @@
+/* Code tidied up by ScrapBook */
+body { background-image: url("site_bg2.jpg"); background-color: rgb(223, 236, 244); background-position: center top; background-repeat: repeat-y; color: rgb(0, 0, 0); font-family: Verdana,sans-serif; font-size: 11px; margin: 0px; width: 100%; }
+#LEFTNAV ul, #LEFTNAV ol, #LEFTNAV li { margin: 0px; padding: 2px 0px; list-style-type: none; }
+* .hidden { position: absolute; left: -5000px; top: -50000px; width: 0px; height: 0px; overflow: hidden; display: inline; }
+a { color: rgb(0, 68, 137); text-decoration: underline; }
+a:hover { color: rgb(0, 68, 137); text-decoration: none; }
+hr { color: rgb(221, 221, 221); background-color: rgb(221, 221, 221); border: 1px solid rgb(221, 221, 221); }
+#SITE { margin: 0px auto; top: 0px; min-width: 995px; width: 995px; }
+#MIDDLE { float: left; clear: left; width: 995px; min-height: 100px; }
+#LEFT { float: left; width: 287px; min-height: 524px; background: transparent url("menu_hg.jpg") no-repeat scroll 0% 0%; }
+#LEFTNAV { float: left; clear: left; width: 287px; margin-top: 45px; }
+#LEFT .LEFT_CONTENT { float: left; clear: both; margin: 20px 10px; width: 190px; }
+#CONTENT { float: left; width: 548px; min-height: 360px; position: relative; }
+#URHERE { float: left; clear: left; width: 520px; height: 26px; padding-top: 5px; padding-left: 5px; font-size: 10px; }
+#URHERE a { font-size: 10px; text-decoration: none; }
+#CONTENTBOX { float: left; clear: left; width: 538px; min-height: 334px; font-size: 10px; padding: 5px; overflow-x: hidden; }
+#RIGHT { float: left; width: 160px; min-height: 524px; background: transparent url("right_nav.jpg") no-repeat scroll 0% 0%; }
+#RIGHTNAV {  }
+.TOPLINE_1 { float: left; clear: left; width: 995px; height: 160px; }
+.TOPLINE_2 { float: left; clear: left; width: 995px; height: 78px; }
+.topsite01, .topsite02, .topsite03, .topsite04 { float: left; }
+ul#fontsize { display: block; width: 70px; position: absolute; top: 5px; right: 5px; z-index: 10; padding: 0px; margin: 0px; }
+ul#fontsize * { padding: 0px; margin: 0px; list-style: outside none none; }
+ul#fontsize .fontsize_label { display: none; }
+ul#fontsize li { float: left; }
+ul#fontsize li a { float: left; border: 0px none; margin: 0px 2px; width: 19px; height: 19px; background-repeat: no-repeat; background-position: 50% 50%; background-color: transparent; }
+ul#fontsize li a:hover { background-color: rgb(238, 238, 238); }
+ul#fontsize li a span { display: none; }
+#fonta { background-image: url("font_size_a.gif"); }
+#fontb { background-image: url("font_size_aa.gif"); }
+#fontc { background-image: url("font_size_aaa.gif"); }
+#fonta:hover { background-image: url("font_size_ah.gif"); }
+#fontb:hover { background-image: url("font_size_aah.gif"); }
+#fontc:hover { background-image: url("font_size_aaah.gif"); }
+#CONTENT #CONTENTBOX .schema_presse { clear: left; }
+#CONTENT #CONTENTBOX .schema_presse br { display: none; }
+#CONTENT #CONTENTBOX .schema_presse .articlelist-listview-showdate { padding-right: 10px; float: left; }
+#CONTENT #CONTENTBOX .schema_presse .articlelist-listview-title { padding-left: 100px; display: block; }
