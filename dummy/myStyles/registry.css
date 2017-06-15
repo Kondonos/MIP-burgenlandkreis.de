@@ -1,0 +1,27 @@
+body{
+	background-color: #dfecf4;
+	color: #001070;
+	height: auto;
+}
+h3{
+	margin-left: 5em;
+}
+
+table{
+	margin: 0;
+	margin-left: 3em;
+	width: 25em;
+
+}
+tr{
+	width:	25em;
+}
+td{
+	width: 10em;
+}
+b{
+	margin-left: 3em;
+}
+#button{
+	margin-left: 13em;
+}

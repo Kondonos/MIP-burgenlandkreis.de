@@ -5,15 +5,19 @@
 	background-color: #D0E0FF;
 	text-align: center;
 	color: #001070;
-	font-size: 1.4em; 
-}
+	font-size: 1.4em;
+} 
 #myform label{
 	padding-left: 3em;
 }
 
+#error{
+	color: #C13;
+}
 
 #myform #sign_in{
 	padding-left: 1em;
+	font-size: 1em;
 }
 
 #myform select{
@@ -26,5 +30,9 @@
 }
 #myform select option{
 	text-align: left
+}
+#registry{
+	font: Arial;
+	font-size: small;
 }
 
