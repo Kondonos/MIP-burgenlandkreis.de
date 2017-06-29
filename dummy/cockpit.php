@@ -5,9 +5,13 @@
 		$errorcode=0;
 	}
 //echo $_SESSION['userid']." ".$errorcode;
-	$pdo=new PDO('mysql:host=127.0.0.1;dbname=test','Tester','1234');
-
-
+	$conf=parse_ini_file("config.conf")
+  	if(!isset($conf['user'])||!isset($conf['name'])||!isset($conf['password'])){}
+  	$dbuser=$conf['user'];
+  	$dbname=$conf['name'];
+  	$dbpwd=$conf['password'];
+	$pdo=new PDO('mysql:host=127.0.0.1;dbname='.$dbname,$dbuser,$dbpwd);
+	
 	$statement=$pdo->prepare("SELECT * FROM user WHERE id=:id");
 	$result=$statement->execute(array('id'=> $_SESSION['userid']));
 	$user=$statement->fetch();
