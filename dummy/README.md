@@ -4,8 +4,11 @@
 3. Im Browser die URL localhost eingeben
 
  		1. auf phpMyAdmin klicken
-		2. Importieren  (oben mittig) wählen
-		3. bei Datei auswählen, die Datei unter "dummy/DB-script/test.sql" wählen
+		2. erstellen einer neuen DB
+		3. "dummy/config.conf" anpassen für DB-User, Password, DB-Nme
+		4 Importieren  (oben mittig) wählen
+		5 bei Datei auswählen, die Datei unter "dummy/DB-script/test-tables.sql" wählen
+
  
  
  
