@@ -23,7 +23,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Tabellenstruktur fÃ¼r Tabelle `request`
+-- Tabellenstruktur für Tabelle `request`
 --
 
 CREATE TABLE `request` (
@@ -38,7 +38,7 @@ CREATE TABLE `request` (
 -- --------------------------------------------------------
 
 --
--- Tabellenstruktur fÃ¼r Tabelle `user`
+-- Tabellenstruktur für Tabelle `user`
 --
 
 CREATE TABLE `user` (
@@ -51,7 +51,7 @@ CREATE TABLE `user` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
 --
--- Daten fÃ¼r Tabelle `user`
+-- Daten für Tabelle `user`
 --
 
 INSERT INTO `user` (`id`, `name`, `email`, `password`, `type`, `address`) VALUES
@@ -62,28 +62,28 @@ INSERT INTO `user` (`id`, `name`, `email`, `password`, `type`, `address`) VALUES
 --
 
 --
--- Indizes fÃ¼r die Tabelle `request`
+-- Indizes für die Tabelle `request`
 --
 ALTER TABLE `request`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indizes fÃ¼r die Tabelle `user`
+-- Indizes für die Tabelle `user`
 --
 ALTER TABLE `user`
   ADD PRIMARY KEY (`id`);
 
 --
--- AUTO_INCREMENT fÃ¼r exportierte Tabellen
+-- AUTO_INCREMENT für exportierte Tabellen
 --
 
 --
--- AUTO_INCREMENT fÃ¼r Tabelle `request`
+-- AUTO_INCREMENT für Tabelle `request`
 --
 ALTER TABLE `request`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 --
--- AUTO_INCREMENT fÃ¼r Tabelle `user`
+-- AUTO_INCREMENT für Tabelle `user`
 --
 ALTER TABLE `user`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
