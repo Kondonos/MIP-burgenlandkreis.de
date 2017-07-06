@@ -8,7 +8,7 @@
   	$dbuser=$conf["user"];
   	$dbname=$conf["name"];
   	$dbpwd=$conf["password"];
-	$pdo=new PDO('mysql:host=127.0.0.1;dbname=test','Tester','1234');
+	$pdo=new PDO('mysql:host=127.0.0.1;dbname='.$dbname,$dbuser,$dbpwd);
 
 ?>
 
