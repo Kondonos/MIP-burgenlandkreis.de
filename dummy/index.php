@@ -1,13 +1,14 @@
 <?php
-	session_start();$conf=parse_ini_file("config.conf")
-  if(!isset($conf['user'])||!isset($conf['name'])||!isset($conf['password'])){
-    die ('<h3>DB-Connection Error<h3> anpassen der "config.conf"')
+	session_start();
+  $conf=parse_ini_file("config.conf");
+  if (!isset($conf["user"])||!isset($conf["name"])||!isset($conf["password"])) {
+    die;
   }
-  $dbuser=$conf['user'];
-  $dbname=$conf['name'];
-  $dbpwd=$conf['password'];
-  $pdo=new PDO('mysql:host=127.0.0.1;dbname='.$dbname,$dbuser,$dbpwd);
-  if(isset($_GET['login'])){
+  $dbuser=$conf["user"];
+  $dbname=$conf["name"];
+  $dbpwd=$conf["password"];
+	$pdo=new PDO('mysql:host=127.0.0.1;dbname='.$dbname,$dbuser,$dbpwd);
+	if(isset($_GET['login'])){
 		$email=$_POST['email'];
 		$pwd=$_POST['pwd'];
 
@@ -197,10 +198,11 @@
 ?>
 	</div>		
   	<form action="?login=1" method="post">
-    	<select name="type" size="1" >
+    	<select name="type" size="1" onselect="">
       		<option selected value="0">Login</option>
-      		<option value="1">Demo_priv</option>
-      		<option value="2">Demo_busi</option>
+      		<!--<option value="1"><a href="fehler.html">Demo_priv</a></option>
+      		<option value="2"><a href="fehler.html">Demo_busi</a></option>
+        -->
     	</select>
     	<label for="email">E-mail:</label>
     	<input id="email" name="email" type="email">

@@ -1,5 +1,13 @@
 <?php
 	session_start();
+	$conf=parse_ini_file("config.conf");
+	if (!isset($conf["user"])||!isset($conf["name"])||!isset($conf["password"])) {
+   		die ('<h3>DB-Connection Error<h3> anpassen der "config.conf"');
+  	}
+	
+  	$dbuser=$conf["user"];
+  	$dbname=$conf["name"];
+  	$dbpwd=$conf["password"];
 	$pdo=new PDO('mysql:host=127.0.0.1;dbname=test','Tester','1234');
 
 ?>
