@@ -11,7 +11,7 @@
 		<hr>
 		<li><a>Internationaler Führerschein</a></li>
 		<hr>
-		<li><a>Ersatzfürerschein</a></li>
+		<li><a>Ersatzführerschein</a></li>
 		<hr>
 	</ul>
 <?php

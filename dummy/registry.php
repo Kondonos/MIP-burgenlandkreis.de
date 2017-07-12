@@ -119,7 +119,7 @@
 				<td>
 					<select name="u_type" size="1">
 						<option value="-1" selected>Bitte wählen</option>
-						<option value="prv">private</option>
+						<option value="prv">privat</option>
 						<option value="bsn">geschäftlich</option>
 						<option value="ins">institutionell</option>
 					</select>

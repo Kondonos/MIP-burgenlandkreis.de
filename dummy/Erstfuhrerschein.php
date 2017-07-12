@@ -167,7 +167,7 @@
 			</tr>
 			<tr>
 				<td>
-					Angestrebter Fügrerschein:
+					Angestrebter Führerschein:
 				</td>
 				<td>
 					<select name="schein" size=1>
